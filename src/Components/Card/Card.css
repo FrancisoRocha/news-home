@@ -1,23 +1,24 @@
-.container{
+.container {
     display: block;
     width: 350px;
     height: 511px;
-    background: #00001A;
+    background: #00001a;
     margin-left: 70%;
-    margin-top: -655px;
+    margin-top: -570px;
 }
-.subtitle{
-    color: #E9AA52;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.subtitle {
+    color: #e9aa52;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 44px;
     margin-left: 25px;
     padding-top: 30px;
 }
 .title-one,
 .title-two,
-.title-three{
+.title-three {
     display: flex;
-    color: #FFFDFA;
+    color: #fffdfa;
     margin-top: 30px;
     margin-left: 20px;
     font-family: "Quicksand", sans-serif;
@@ -27,24 +28,24 @@
 }
 .title-one:hover,
 .title-two:hover,
-.title-three:hover{
-    color: #E9AA52;
+.title-three:hover {
+    color: #e9aa52;
     transition: all 500ms;
 }
 
 .text-one,
 .text-two,
-.text-three{
+.text-three {
     display: flex;
     width: 311px;
-    color: #C5C6CE;
+    color: #c5c6ce;
     margin-left: 20px;
     margin-top: 20px;
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
 }
 .text-one,
-.text-two{
+.text-two {
     padding-bottom: 30px;
-    border-bottom: 1px solid #FFFDFA;
+    border-bottom: 1px solid #fffdfa;
 }

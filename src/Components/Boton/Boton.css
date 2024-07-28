@@ -1,20 +1,20 @@
-.boton{
+.boton {
     display: flex;
-    margin-left: 41%;
+    margin-left: 43%;
     margin-top: 40px;
     width: 240px;
     height: 65px;
     letter-spacing: 4px;
     font-weight: bold;
-    background: #F15D51;
+    background: #f15d51;
     border: none;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     transition: all 500ms;
 }
-.boton:hover{
-    background: #00001A;
-    color: #FFFDFA;
+.boton:hover {
+    background: #00001a;
+    color: #fffdfa;
     transition: all 500ms;
 }

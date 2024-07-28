@@ -1,28 +1,28 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-.logo{
+.logo {
     display: flex;
     margin-left: 200px;
     margin-top: 100px;
     cursor: pointer;
 }
-.navegacion{
+.navegacion {
     display: flex;
-    color: #5E607A;
+    color: #5e607a;
     justify-content: flex-end;
     font-family: "Quicksand", sans-serif;
     font-family: 17px;
     font-weight: 500;
     list-style: none;
-    margin-top: -30px;
+    margin-top: -40px;
     gap: 50px;
     margin-right: 200px;
     cursor: pointer;
 }
-.navbar:hover{
-    color: #F15D51;
+.navbar:hover {
+    color: #f15d51;
     transition: all 500ms;
 }

@@ -1,9 +1,9 @@
-.text{
+.text {
     display: flex;
-    width: 435px;
+    width: 350px;
     font-family: "Quicksand", sans-serif;
-    color: #5E607A;
-    font-size: 20px;
-    margin-left: 41%;
+    color: #5e607a;
+    font-size: 16px;
+    margin-left: 42%;
     margin-top: -210px;
 }

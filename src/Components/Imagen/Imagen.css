@@ -1,0 +1,38 @@
+.img-one {
+    display: flex;
+    width: 100px;
+    height: 135px;
+    margin-top: 150px;
+    margin-left: 155px;
+    margin-bottom: 70px;
+}
+.number-one {
+    display: flex;
+    margin-top: -210px;
+    margin-left: 280px;
+    color: #f15d51;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+.title-img {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 280px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+.title-img:hover {
+    color: #f15d51;
+    transition: all 500ms;
+}
+.text-uno {
+    width: 220px;
+    margin-top: 15px;
+    margin-left: 280px;
+    color: #5e607a;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 70px;
+}
