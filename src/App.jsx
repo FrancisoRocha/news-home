@@ -7,15 +7,16 @@ import TItulo from "./Components/TItulo/Titulo";
 import Texto from "./Components/Texto/Texto";
 
 function App() {
+  const navbarLinks = ["Home", "New", "Popular", "Treding", "Categoria"];
   return (
     <>
-      <Navbar />
+      <Navbar links={navbarLinks} />
       <Header />
       <TItulo />
       <Texto />
       <Boton />
       <Card />
-      <Imagenes />
+      <Imagenes valor={23} />
     </>
   );
 }

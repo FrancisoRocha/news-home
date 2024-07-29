@@ -1,18 +1,25 @@
-import "./Navbar.css"
+import PropTypes from "prop-types";
+import "./Navbar.css";
 
-function Navbar() {
-    return (
-        <>
-            <img src="../public/logoW.svg" alt="logoW" className="logo"/>
-            <ul className="navegacion">
-                <li className="navbar">Home</li>
-                <li className="navbar">New</li>
-                <li className="navbar">Popular</li>
-                <li className="navbar">Treding</li>
-                <li className="navbar">Categories</li>
-            </ul>
-        </>
-    )
+function Navbar({ links }) {
+  return (
+    <>
+      <nav>
+        <img src="../public/logoW.svg" alt="logoW" className="logo" />
+        <ul className="navegacion">
+          {links.map((link, index) => (
+            <li key={index} className="navbar">
+              {link}
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </>
+  );
 }
 
 export default Navbar;
+
+Navbar.prototype = {
+  links: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
